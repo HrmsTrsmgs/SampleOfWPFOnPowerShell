@@ -1,0 +1,4 @@
+# SampleOfWPFOnPowerShell
+
+PowerShellを使ってWPFアプリケーションを作るサンプルを登録しています。
+解説はQiita
