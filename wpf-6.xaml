@@ -1,0 +1,18 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+Width="100" Height="100">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel>
+            <TextBlock>姓</TextBlock>
+            <TextBox Text="{Binding LastName, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock>名</TextBlock>
+            <TextBox Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        <StackPanel>
+            <TextBlock>姓</TextBlock>
+            <TextBox Text="{Binding LastName, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock>名</TextBlock>
+            <TextBox Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+    </StackPanel>
+</Window>
